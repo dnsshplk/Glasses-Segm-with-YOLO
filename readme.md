@@ -17,6 +17,7 @@ For to conver binary mask to yolo-polygons we need:
 
 ## Rearange data folder and create dataset.yaml file
 Second we need to rearange the data so yolo can accept it (we can do it manually):
+```
 data/
 ├── train/
 │   ├── images/
@@ -36,7 +37,7 @@ data/
 │       ├── img1.txt
 │       ├── img2.txt
 │       └── ...
-
+```
 Then, create a dataset.yaml file
 
 Now we can train our model

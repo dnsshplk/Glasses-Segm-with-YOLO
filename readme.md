@@ -38,7 +38,16 @@ data/
 │       ├── img2.txt
 │       └── ...
 ```
-Then, create a dataset.yaml file
+Then, create a dataset.yaml file:
+```
+names:
+- glasses
+- lens
+nc: 2
+path: /kaggle/input/glasses-segm/data
+train: images/train
+val: images/val
+```
 
 Now we can train our model
 
@@ -46,3 +55,4 @@ Now we can train our model
 # Model Training
 Model training has been done on kaggle
 Train the model for 50 epochs with a batch size 32 (+- 30 min on GPU P100)
+Here we can see losses and scores during traning:

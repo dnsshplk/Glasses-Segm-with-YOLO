@@ -56,3 +56,4 @@ Now we can train our model
 Model training has been done on kaggle
 Train the model for 50 epochs with a batch size 32 (+- 30 min on GPU P100)
 Here we can see losses and scores during traning:
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/run/results.png)

@@ -59,8 +59,8 @@ Here we can see losses and scores during traning:
 ![alt text](https://github.com/dnsshplk/Task1_int/blob/main/run/results.png)
 
 Validation Batches:
-![alt text](https://github.com/dnsshplk/Task1_int/blob/main/run/results.png)
-![alt text](https://github.com/dnsshplk/Task1_int/blob/main/run/results.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/run/val_batch1_labels.jpg)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/run/val_batch2_labels.jpg)
 
 
 # Overall Result

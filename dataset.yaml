@@ -1,0 +1,7 @@
+names:
+- glasses
+- lens
+nc: 2
+path: /kaggle/input/glasses-segm/data
+train: images/train
+val: images/val

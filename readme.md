@@ -57,3 +57,21 @@ Model training has been done on kaggle
 Train the model for 50 epochs with a batch size 32 (+- 30 min on GPU P100)
 Here we can see losses and scores during traning:
 ![alt text](https://github.com/dnsshplk/Task1_int/blob/main/run/results.png)
+
+Validation Batches:
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/run/results.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/run/results.png)
+
+
+# Overall Result
+Here can we se the actual perfomace of the model on the test data:
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58080_3_generated_0_00001_.png_mask.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58162_2_generated_0_00001_.png_mask.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58196_0_generated_0_00001_.png_mask.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58208_1_generated_0_00001_.png_mask.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58212_0_generated_1_00001_.png_mask.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58219_1_generated_0_00001_.png_mask.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58223_0_generated_0_00001_.png_mask.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58234_0_generated_0_00001_.png_mask.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58258_0_generated_0_00001_.png_mask.png)
+![alt text](https://github.com/dnsshplk/Task1_int/blob/main/test/masks_model/58277_1_generated_0_00001_.png_mask.png)

@@ -2,9 +2,15 @@ import os
 import cv2
 import numpy as np
 from ultralytics import YOLO
-
+#import torch
 
 def main():
+    # use_gpu = True
+
+    # if use_gpu:
+    #     torch.set_default_device('cuda')
+
+    # load the best weigths into the model
     model = YOLO(os.path.join('run', 'best.pt')) 
 
     images_dir = os.path.join('test', 'images')
@@ -35,6 +41,7 @@ def main():
             elif cls == 1:  
                 mask_lenses = np.maximum(mask_lenses, mask_uint8)
             
+        # Get the eyeglass frame (desired binary image)
         result_mask = mask_glasses - mask_lenses
             
         result_mask = cv2.cvtColor(result_mask, cv2.COLOR_GRAY2BGR)
@@ -46,12 +53,11 @@ def main():
         actual_mask = cv2.imread(actual_mask_path)
 
         actual_mask = cv2.resize(actual_mask, (512, 512))
-        # img_output_path = os.path.join(output_dir, image_file)
         
+        # Concat image/actual_mask/result_mask into one image for convenience
         result_image = np.concatenate((image, actual_mask, result_mask), axis = 1)
 
         cv2.imwrite(mask_output_path, result_image)
-        # cv2.imwrite(img_output_path, image)
 
 
 if __name__ == '__main__':

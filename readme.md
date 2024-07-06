@@ -1,5 +1,3 @@
-Task 1 - DL - Eyeglasses Segmentation Model
-
 # Solution Desription
 For this task, the yolov8n-seg from Ultralytics is used.
 

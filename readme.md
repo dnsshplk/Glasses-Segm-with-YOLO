@@ -1,4 +1,4 @@
-# Solution Desription
+# Solution Description
 For this task, the yolov8n-seg from Ultralytics is used.
 
 # Data preparation
